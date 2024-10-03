@@ -621,7 +621,7 @@ func (a *ArgVars) Send() error {
 	if err != nil {
 		return err
 	}
-	_, err = fmt.Print(string(data))
+	_, err = fmt.Println(string(data))
 	return err
 }
 
